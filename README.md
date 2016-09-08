@@ -1,17 +1,20 @@
-###Practicum unittesten
+###Lab Unit Testing
 
-#####Opdracht 1.
-Bekijk de code in src/main en de tests voor 
-TestLinearStructureArray in src/test. Wat voor nadelen 
-zitten er aan deze manier van testen? Schrijf je antwoord op.
+Import the code into your favorite IDE. In NetBeans, make sure 
+you import it as a "Java project from existing sources".
 
-#####Opdracht 2.
-Herschrijf de testklasse voor LinearStructureArray. Gebruik 
-JUnit en Hamcrest en besteed aandacht aan de best practices voor 
-testen.
+#####Exercise 1.
+Examine the code in src/main and the tests for 
+LinearStructureArray in src/test. What are the drawbacks to 
+this way of testing? Write down your answer.
 
-#####Opdracht 3.
-Schrijf in maximaal 15 regels op wat je vindt van de tesbaarheid 
-van klasse LinearStructureArray. 
-Zou je deze klasse herschrijven om de testbaarheid te verbeteren en zo ja hoe?
-Tegen wat voor problemen ben je aangelopen bij opdracht 2?
+#####Exercise 2.
+Rewrite LinearStructureArrayTest. Use JUnit and Hamcrest and 
+try to apply the best practices explained in the slides. Take note 
+of the postconditions stated in LinearStructure (the interface) 
+to improve your tests.
+
+#####Exercise 3.
+Write an analysis of the testability of LinearStructureArray. How 
+could it be rewritten to improve the testability? What problems did 
+you encounter in exercise 2?

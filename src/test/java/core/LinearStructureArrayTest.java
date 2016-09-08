@@ -2,7 +2,7 @@ package core;
 
 import core.LinearStructureArray;
 
-public class TestLinearStructureArray {
+public class LinearStructureArrayTest {
 	public static void main(String[] args){
 		LinearStructureArray array = new LinearStructureArray();
 		System.out.println("Array has size "+array.size());
